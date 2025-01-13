@@ -55,12 +55,14 @@ nav ul{
 .banner-greting{
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 30px;
 }
 .banner-title{
     font-weight: 700;
     font-size: 85px;
     font-family: open sans;
     color: rgb(24, 24, 24);;
+    margin-bottom: 20px;
 }
 .banner-discription{
     font-size: 18px;
@@ -74,4 +76,44 @@ nav ul{
 .banner{
     display: flex;
     margin: 30px 170px;
+}
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+}
+/* About style */
+.section-title{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+.banner-discription{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+ border-radius: 10px;
+ text-align: center;
+ padding: 130px 150px;
+ margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+.item-discription{
+    font-size: 20px;
+    font-weight: 700;
+    color:  rgb(117, 117, 117);
+
+}
+.item-title{
+
 }
