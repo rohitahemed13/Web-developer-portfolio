@@ -80,7 +80,7 @@ nav ul{
     margin: 30px 170px;
 }
 .secondary-bg{
-    background-color: rgb(255, 248, 243);
+    background-color: #FFF8F3;
 }
 /* About style */
 .section-title{
@@ -142,4 +142,41 @@ main section{
 }
 .skills-discription{
      
+}
+.resum-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-discription, .experience-sub-title{
+   color: rgb(117, 117, 117);
+}
+.experience-sub-title{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume hr{
+   margin: 30px 5px; 
+   
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-bottom: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
