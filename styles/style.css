@@ -3,6 +3,7 @@
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
    font-style: normal;
+   position: absolute;
   }
   /* nav style */
   nav{
@@ -51,6 +52,7 @@ nav ul{
     background-position: top  left,bottom right;
     background-repeat: no-repeat;
     
+    
 }
 /* banner style */
 .banner-greting{
@@ -78,6 +80,7 @@ nav ul{
 .banner{
     display: flex;
     margin: 30px 170px;
+    
 }
 .secondary-bg{
     background-color: #FFF8F3;
